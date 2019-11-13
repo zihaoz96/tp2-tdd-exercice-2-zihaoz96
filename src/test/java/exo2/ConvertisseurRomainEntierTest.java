@@ -12,5 +12,10 @@ class ConvertisseurRomainEntierTest {
 	void shouldReturn0WhenEmpty() {
 		assertTrue(c.getResultat("") == 0);
 	}
+	
+	@Test
+	void shouldReturn1WhenI() {
+		assertTrue(c.getResultat("I") == 1);
+	}
 
 }
