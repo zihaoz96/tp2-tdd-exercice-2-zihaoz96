@@ -10,6 +10,8 @@ public class ConvertisseurRomainEntier {
 			return 10;
 		}else if (valeur == "L") {
 			return 50;
+		}else if (valeur == "C") {
+			return 100;
 		}
 		
 		return 0;	
