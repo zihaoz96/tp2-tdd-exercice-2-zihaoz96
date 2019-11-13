@@ -2,11 +2,17 @@ package exo2;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ConvertisseurRomainEntierTest {
 	
-	ConvertisseurRomainEntier c = new ConvertisseurRomainEntier();
+	ConvertisseurRomainEntier c;
+	
+	@BeforeEach
+	void BeforeEach() {
+		c = new ConvertisseurRomainEntier();
+	}
 	
 	@Test	
 	void shouldReturn0WhenEmpty() {
