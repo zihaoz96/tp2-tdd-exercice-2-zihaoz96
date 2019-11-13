@@ -38,5 +38,12 @@ class ConvertisseurRomainEntierTest {
 	void shouldReturn50WhenL() {
 		assertTrue(c.getResultat("L") == 50);
 	}
+	
+	@Test
+	void shouldReturn100WhenC() {
+		assertTrue(c.getResultat("C") == 100);
+	}
+	
+	
 
 }
